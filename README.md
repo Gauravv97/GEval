@@ -38,10 +38,10 @@ The 'admins' and 'tests' child in root are to be added manually in this format.
 To upload tests in realtime database go to the specified link inside firebase's database.
 
 <p align="center">
-    <img src="Sample/img12.png" width="75%"></br>
+    <img src="Sample/img13.png" width="75%"></br>
 </p>
 
-Add your questions, options and Time in this database child.You can easily do so using `Import JSON` feature of firebase. Using any online editor edit this [JSON question template](/) and import it to your test.
+Add your questions, options and Time in this database child.You can easily do so using `Import JSON` feature of firebase. Using any online editor edit this [JSON question template](https://raw.githubusercontent.com/Gauravv97/GEval/master/QuesTemplate.json) and import it to your test.
 
 #### Adding Admins
 

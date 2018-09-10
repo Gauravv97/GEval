@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anondev.gaurav.geval">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AttemptTest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tests"
+            android:label="@string/title_activity_tests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddDetails" />
+        <activity
+            android:name=".Results"
+            android:label="Results"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResultsAdmin"
+            android:label="Results:ADMIN"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResultsAdminDetailed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutUsActivity"></activity>
+    </application>
+
+</manifest>

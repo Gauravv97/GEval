@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805205633427",
+    "firebase_url": "https://geval-183e7.firebaseio.com",
+    "project_id": "geval-183e7",
+    "storage_bucket": "geval-183e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805205633427:android:62f37d78f2b7d5c0",
+        "android_client_info": {
+          "package_name": "com.anondev.gaurav.geval"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805205633427-6ebtu2ed49jg8898tj2k1t8ghofifqdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDko2ZXepB3dBb_-f6NMAAoe6BM2Ishvrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

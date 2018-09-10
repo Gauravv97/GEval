@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Tests" />
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Results" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_details"
+                android:icon="@drawable/ic_assignment_ind_black_24dp"
+                android:title="AddDetails" />
+            <item
+                android:id="@+id/nav_respass"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="ResetPassword" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="SignOut" />
+        </menu>
+    </item>
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/about_details"
+                android:icon="@drawable/ic_info_outline_white_24dp"
+                android:iconTint="@android:color/black"
+                android:title="AboutUs" />
+        </menu>
+    </item>
+
+</menu>

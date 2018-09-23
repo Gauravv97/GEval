@@ -2,7 +2,7 @@ GEval
 =====
 
 An app to host your own tests and evaluate students.
-GEval uses Google's firebase for hosting the test and authentication. GEval lets you specify the admin accounts in firebase database. Admin accounts has access to all the results and other features automatically.
+GEval uses Google's firebase for hosting the test and authentication. GEval lets you specify the admin accounts in firebase database. Admin account has access to all the results and other features automatically.
 
 ## Uses
 

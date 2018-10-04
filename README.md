@@ -53,7 +53,7 @@ For proper functioning of GEval the firebse database needs to be set up with pro
 
 Goto Firebase dashboard-> Database-> Rules
 
-Paste the content of [Rules.json](](https://raw.githubusercontent.com/Gauravv97/GEval/master/Rules.json) file in the editor.
+Paste the content of [Rules.json]](https://raw.githubusercontent.com/Gauravv97/GEval/master/Rules.json) file in the editor.
 
 <p align="center">
     <img src="Sample/img14.png" width="75%"></br>

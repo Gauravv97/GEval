@@ -2,7 +2,7 @@ GEval
 =====
 
 An app to host your own tests and evaluate students.
-GEval uses Google's firebase for hosting the test and authentication. GEval lets you specify the admin accounts in firebase database. Admin accounts has access to all the results and other features automatically.
+GEval uses Google's firebase for hosting the test and authentication. GEval lets you specify the admin accounts in firebase database. Admin account has access to all the results and other features automatically.
 
 ## Uses
 
@@ -38,14 +38,28 @@ The 'admins' and 'tests' child in root are to be added manually in this format.
 To upload tests in realtime database go to the specified link inside firebase's database.
 
 <p align="center">
-    <img src="Sample/img12.png" width="75%"></br>
+    <img src="Sample/img13.png" width="75%"></br>
 </p>
 
-Add your questions, options and Time in this database child.You can easily do so using `Import JSON` feature of firebase. Using any online editor edit this [JSON question template](/) and import it to your test.
+Add your questions, options and Time in this database child.You can easily do so using `Import JSON` feature of firebase. Using any online editor edit this [JSON question template](https://raw.githubusercontent.com/Gauravv97/GEval/master/QuesTemplate.json) and import it to your test.
 
 #### Adding Admins
 
 Create a child `admins` in root and add child with name= "user-id" which can be seen from authentication tab in firebase console and Value=true.
+
+#### Rules
+
+For proper functioning of GEval the firebse database needs to be set up with proper rules for each module. These rules are very important for security and privacy of your data.
+
+Goto Firebase dashboard-> Database-> Rules
+
+Paste the content of [Rules.json](](https://raw.githubusercontent.com/Gauravv97/GEval/master/Rules.json) file in the editor.
+
+<p align="center">
+    <img src="Sample/img14.png" width="75%"></br>
+</p>
+
+For help [refer to these firebase docs](https://firebase.google.com/docs/database/security/quickstart)
 
 ## Screenshots
 
@@ -68,7 +82,3 @@ Create a child `admins` in root and add child with name= "user-id" which can be 
 ## About
 
 Copyright 2018 Gaurav Chaudhari, and licensed under the Apache License, Version 2.0. No attribution is necessary but it's very much appreciated. Star this project if you like it!
-
-
-
-
